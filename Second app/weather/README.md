@@ -1,3 +1,10 @@
+Very simple weather app. uses "https://openweathermap.org/" .
+
+just insert key in function componentWillMount(){
+    this.query("HURUM","YOUR KEY HERE");
+    }
+
+-------------------------------------------------------------------
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
