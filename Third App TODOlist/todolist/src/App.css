@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.input_section, .input_section label{
+  padding:20px;
+}
+
+.remove_Button{
+
+font-weight: 400;
+line-height: 1.25;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+padding: .5rem 1rem;
+font-size: 1rem;
+border-radius: .25rem;
+-webkit-transition: all .2s ease-in-out;
+-o-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
+color: #fff;
+background-color: #d9534f;
+border-color: #d9534f;
+}
+
+.remove_Button:hover{
+  background-color: #c9302c;
+  border-color: #6b6a3e;
+}
+
+
+.Main_Wrapper{
+  padding:20px;
+  border:1px solid black;
+  width:300px;
+  margin:0 auto;
+}
+
+.Inner_Wrapper{
+text-align:left;
+}
+
+
+.Submit_Button {
+  margin-left:3px;
+	display: inline-block;
+	padding: 1px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+  color: #fff;
+background-color: #337ab7;
+border-color: #2e6da4;
+}
+.Submit_Button:hover {
+  background-color: #286090;
+  border-color: #204d74;
+}

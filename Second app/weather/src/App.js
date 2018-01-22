@@ -55,10 +55,10 @@ var lool = this.getState();
   }
 
 
-  query(city){
+  query(city,key){
     axios({
       method:'GET',
-      url:`http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&APPID=e580a35158fce612a6ef1d22d6a7bd17`,
+      url:`http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&APPID=${key}`,
       responseType:'json'
     })
     .then((response) => {
