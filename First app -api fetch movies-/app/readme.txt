@@ -1,2 +1,1 @@
-step 1 : instert api key in function { lul() } 
-step 2 : profit
+instert api key in function { lul() }
